@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+notion-log-exec = {version = "*",editable = true}
+notion-py = {git = "https://git@github.com/evertheylen/notion-py.git",editable = true}
+notion-sync = {"version >" = "0.2.3",editable = true}
+
+[requires]
+python_version = "3.7"
